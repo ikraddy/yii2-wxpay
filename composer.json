@@ -1,0 +1,34 @@
+{
+  "name": "ikraddy/yii2-wxpay",
+  "type": "yii2-extension",
+  "description": "Yii2 iKraddy Wechat Pay",
+  "keywords": [
+    "yii2",
+	"ikraddy",
+    "yii2-wxpay"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/ikraddy/yii2-wxpay"
+  },
+  "authors": [
+    {
+      "name": "iKraddy",
+      "email": "ikraddy@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+   
+  },
+  "autoload": {
+    "psr-4": {
+      "ikraddy\\wxpay\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
